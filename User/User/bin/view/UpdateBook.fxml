@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UpdateBookController">
+   <children>
+      <Button fx:id="updateBook" layoutX="88.0" layoutY="289.0" mnemonicParsing="false" onAction="#updateBook" text="Update" />
+      <Button fx:id="exit" layoutX="244.0" layoutY="289.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <Label layoutX="30.0" layoutY="14.0" text="Please Enter the following details you want to update" />
+      <TextField fx:id="book_name" layoutX="279.0" layoutY="92.0" />
+      <TextField fx:id="edition" layoutX="279.0" layoutY="140.0" />
+      <TextField fx:id="no_of_books" layoutX="279.0" layoutY="195.0" />
+      <TextField fx:id="book_id" layoutX="279.0" layoutY="45.0" />
+      <Label layoutX="89.0" layoutY="49.0" text="Book ID" />
+      <Label layoutX="88.0" layoutY="95.0" text="Book Name" />
+      <Label layoutX="89.0" layoutY="144.0" text="Edition" />
+      <Label layoutX="89.0" layoutY="199.0" text="No of Books" />
+   </children>
+</AnchorPane>

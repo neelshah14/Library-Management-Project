@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="420.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteBookController">
+   <children>
+      <Label layoutX="82.0" layoutY="55.0" prefHeight="25.0" prefWidth="54.0" text="Book ID" textAlignment="RIGHT" />
+      <TextField fx:id="book_ID" layoutX="206.0" layoutY="55.0" />
+      <Button layoutX="76.0" layoutY="359.0" mnemonicParsing="false" onAction="#DeleteButton" text="Delete" />
+      <Button layoutX="303.0" layoutY="359.0" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+      <Label layoutX="42.0" layoutY="22.0" text="Hello Admin" />
+
+   </children>
+</AnchorPane>

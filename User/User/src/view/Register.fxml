@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #33cc33;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <Label layoutX="264.0" layoutY="29.0" style="-fx-font-weight: bold;" text="REGISTRATION" textFill="#13430afc" />
+      <Label layoutX="66.0" layoutY="73.0" text="Name" />
+      <Label layoutX="64.0" layoutY="146.0" text="Email ID" />
+      <Label layoutX="67.0" layoutY="228.0" text="Phone" />
+      <Label layoutX="64.0" layoutY="109.0" text="Password" />
+      <Label layoutX="65.0" layoutY="183.0" text="User ID" />
+      <Button layoutX="34.0" layoutY="25.0" onAction="#loginPage" prefHeight="17.0" prefWidth="70.0" style="-fx-background-color: #145214;" text="Back" textFill="WHITE" />
+      <TextField fx:id="name" layoutX="139.0" layoutY="69.0" />
+      <TextField fx:id="password" layoutX="139.0" layoutY="105.0" />
+      <TextField fx:id="email_ID" layoutX="139.0" layoutY="142.0" />
+      <TextField fx:id="user_ID" layoutX="139.0" layoutY="179.0" />
+      <TextField fx:id="phone" layoutX="139.0" layoutY="224.0" />
+      <Button layoutX="177.0" layoutY="310.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #145214;" text="Submit" textFill="WHITE" />
+      <ImageView fx:id="imgView" fitHeight="175.0" fitWidth="200.0" layoutX="344.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../registration-big.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
