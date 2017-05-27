@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="controller.AddRackController" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label layoutX="49.0" layoutY="36.0" text="Welcome Admin" />
+      <Label layoutX="49.0" layoutY="60.0" text="You can Add Rack Here" />
+      <Label layoutX="49.0" layoutY="99.0" text="Section ID" />
+      <Label layoutX="49.0" layoutY="140.0" text="Rack ID" />
+      <Label layoutX="49.0" layoutY="179.0" text="Rack Name" />
+      <Label layoutX="49.0" layoutY="219.0" text="No of Rack" />
+      <Button layoutX="85.0" layoutY="307.0" mnemonicParsing="false"  text="Add" />
+      <Button fx:id="exit" layoutX="230.0" layoutY="307.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <TextField fx:id="section_ID" layoutX="173.0" layoutY="95.0" />
+      <TextField fx:id="rack_ID" layoutX="173.0" layoutY="132.0" />
+      <TextField fx:id="rack_name" layoutX="173.0" layoutY="172.0" />
+      <TextField fx:id="no_of_racks" layoutX="173.0" layoutY="212.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="420.0" prefWidth="620.0" style="-fx-background-color: #24248f;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WelAdminController">
+   <children>
+      <Label layoutX="43.0" layoutY="46.0" prefHeight="25.0" prefWidth="202.0" text="Select the Actions to be performed" textAlignment="RIGHT" textFill="AQUA">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <Label layoutX="42.0" layoutY="22.0" styleClass="text-shadow: 0 2px 1px rgba(0,0,0,0.3);" text="Welcome Admin" textFill="AQUA">
+         </Label>
+      <Button fx:id="exit" layoutX="186.0" layoutY="279.0" mnemonicParsing="false" onAction="#exit" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Exit" />
+      <Button fx:id="addSection" layoutX="43.0" layoutY="89.0" mnemonicParsing="false" onAction="#addSection" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" stylesheets="@../admin.css" text="Add Section"/>
+
+      <Button fx:id="addRack" layoutX="43.0" layoutY="130.0" mnemonicParsing="false" onAction="#addRack" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Add Rack" />
+      <Button fx:id="addBook" layoutX="42.0" layoutY="172.0" mnemonicParsing="false" onAction="#addBook" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Add Book" />
+      <Button fx:id="search" layoutX="289.0" layoutY="89.0" mnemonicParsing="false" onAction="#searchBook" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Search" />
+      <Button fx:id="deleteRack" layoutX="291.0" layoutY="129.0" mnemonicParsing="false" onAction="#deleteRack" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Delete Rack" />
+      <Button fx:id="deleteBook" layoutX="290.0" layoutY="171.0" mnemonicParsing="false" onAction="#deleteBook" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Delete Book" />
+      <Button fx:id="updateBook" layoutX="43.0" layoutY="217.0" mnemonicParsing="false" onAction="#updateBook" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Update Book" />
+      <Button fx:id="updateRack" layoutX="288.0" layoutY="216.0" mnemonicParsing="false" onAction="#updateRack" style="-fx-font-weight: bold; -fx-background-color: #00ffff;" text="Update Rack" />
+   </children>
+</AnchorPane>

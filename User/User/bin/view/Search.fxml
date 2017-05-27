@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #24248f;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchController">
+   <children>
+      <Text fill="AQUA" fontSmoothingType="LCD" layoutX="45.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello Admin..!!" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+      <TextField fx:id="searchField" layoutX="48.0" layoutY="97.0" promptText="Enter ID to be search" />
+      <Button fx:id="searchBook" layoutX="45.0" layoutY="161.0" mnemonicParsing="false" onAction="#searchBook" style="-fx-background-color: AQUA;" text="Search Book" />
+      <Button fx:id="exit" layoutX="194.0" layoutY="243.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: AQUA;" text="Exit" />
+      <Button fx:id="searchRack" layoutX="171.0" layoutY="161.0" mnemonicParsing="false" onAction="#searchRack" style="-fx-background-color: AQUA;" text="Search Rack" />
+      <Button fx:id="searchSection" layoutX="301.0" layoutY="161.0" mnemonicParsing="false" onAction="#searchSection" style="-fx-background-color: AQUA;" text="Search Section" />
+   </children>
+</AnchorPane>

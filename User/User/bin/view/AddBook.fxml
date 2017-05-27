@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="controller.AddBookController" prefHeight="420.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="82.0" layoutY="55.0" prefHeight="25.0" prefWidth="54.0" text="Book ID" textAlignment="RIGHT" />
+      <TextField fx:id="book_ID" layoutX="206.0" layoutY="55.0" />
+      <Label layoutX="81.0" layoutY="100.0" text="Rack ID" />
+      <TextField fx:id="rack_ID" layoutX="206.0" layoutY="96.0" />
+      <Label layoutX="82.0" layoutY="141.0" text="Book Name" />
+      <TextField fx:id="book_name" layoutX="206.0" layoutY="137.0" />
+      <Label layoutX="82.0" layoutY="183.0" text="Author" />
+      <TextField fx:id="author" layoutX="206.0" layoutY="179.0" />
+      <Label layoutX="82.0" layoutY="228.0" text="Edition" />
+      <TextField fx:id="edition" layoutX="206.0" layoutY="224.0" />
+      <Label layoutX="82.0" layoutY="270.0" text="ISBN" />
+      <TextField fx:id="ISBN" layoutX="206.0" layoutY="266.0" />
+      <Label layoutX="80.0" layoutY="313.0" text="No of books" />
+      <TextField fx:id="no_of_books" layoutX="206.0" layoutY="309.0" />
+      <Button layoutX="76.0" layoutY="359.0" mnemonicParsing="false" onAction="#AddButton" text="Add" />
+      <Button fx:id="exit" layoutX="303.0" layoutY="359.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <Label layoutX="42.0" layoutY="22.0" text="Welcome Admin- You can Add Book now" />
+   </children>
+</AnchorPane>

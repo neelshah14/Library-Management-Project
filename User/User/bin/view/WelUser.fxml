@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #24248f;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WelUserController">
+   <children>
+      <Text fill="AQUA" layoutX="50.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome User" />
+      <Text fill="AQUA" layoutX="50.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the Actions you want to perform" />
+      <Button fx:id="exit" layoutX="153.0" layoutY="247.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: #00ffff; -fx-font-weight: bold;" text="Exit" />
+      <Button fx:id="viewBook" layoutX="64.0" layoutY="111.0" mnemonicParsing="false" onAction="#viewBook" style="-fx-background-color: #00ffff; -fx-font-weight: bold;" text="View Book" />
+      <Button fx:id="searchBook" layoutX="211.0" layoutY="111.0" mnemonicParsing="false" onAction="#searchBook" style="-fx-background-color: #00ffff; -fx-font-weight: bold;" text="Search " />
+   </children>
+</AnchorPane>
